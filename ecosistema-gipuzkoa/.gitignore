@@ -1,0 +1,38 @@
+# Credenciales
+.env
+config/.env
+*.key
+
+# Datos
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.docx
+data/processed/
+data/output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+src/ecosistema_gipuzkoa.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+checkpoint.json
+
+# Cache
+.pytest_cache/

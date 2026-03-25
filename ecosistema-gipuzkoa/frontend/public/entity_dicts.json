@@ -1,0 +1,544 @@
+{
+  "inversores_accionistas": {
+    "fondos_pe_vc": {
+      "vascos": {
+        "Inveready": [
+          "GAEA Inversión",
+          "Inveready Asset Management"
+        ],
+        "Diana Capital": [
+          "Diana Capital I"
+        ],
+        "Espiga Capital": [
+          "Espiga Equity Fund FCR",
+          "Espiga Equity Fund II FCR"
+        ],
+        "ORZA": [
+          "Fondo Orza"
+        ],
+        "Inbergune Capital Partners": [],
+        "Moira Capital Partners": [],
+        "Clave Capital": [],
+        "Radar Ventures": [],
+        "JME Ventures": [],
+        "Seed Gipuzkoa": [
+          "SEED GIPUZKOA SCR SA"
+        ],
+        "Stellum": [
+          "Stellum Food & Tech",
+          "Stellum Food&Tech",
+          "Easo Ventures",
+          "Stellum Food&Tech I",
+          "Fundación Artizarra"
+        ],
+        "Talde": [
+          "TALDE Deuda Alternativa",
+          "Talde Private Equity"
+        ]
+      },
+      "nacionales": {
+        "Portobello Capital": [
+          "Portobello Capital Fondo III FCR"
+        ],
+        "Magnum Capital": [
+          "Magnum Industrial Partners"
+        ],
+        "Alantra": [
+          "Alantra Capital Privado",
+          "Alantra Private Equity"
+        ],
+        "Corporación Financiera Alba": [
+          "Artá Capital"
+        ],
+        "Suma Capital": [],
+        "Sherpa Capital": [],
+        "Peninsula Capital": [],
+        "ProA Capital": [],
+        "Corpfin Capital": [],
+        "Columbus Venture Partners": [],
+        "Inclimo Climate Tech Fund": [],
+        "Faraday Venture Partners": [],
+        "Indi Partners": [],
+        "Lidera Value": [],
+        "Águila Capital": [],
+        "Adara Ventures": [],
+        "Quantonation": [],
+        "Fondo Bolsa Social": [],
+        "TheVentureCity": [],
+        "Desafia": []
+      },
+      "internacionales": {
+        "KKR": [
+          "Kohlberg Kravis Roberts"
+        ],
+        "Cinven": [],
+        "PAI Partners": [
+          "PAI Mid Market Fund"
+        ],
+        "Charterhouse Capital Partners": [],
+        "A&M Capital Europe": [],
+        "Ampersand Capital Partners": [],
+        "Apollo Global Management": [
+          "Apollo Funds"
+        ],
+        "Carlyle Group": [],
+        "CapVest Partners": [],
+        "Centerbridge Partners": [],
+        "Macquarie Asset Management": [
+          "MIRA",
+          "MEIF 5",
+          "Macquarie European Infrastructure Fund 5",
+          "Macquarie Infrastructure and Real Assets"
+        ],
+        "Partners Group": [],
+        "KPS Capital Partners": [],
+        "Fortress Investment Group": [],
+        "Aurelius Group": [],
+        "Black Toro Capital": [],
+        "Tikehau Capital": [],
+        "Endurance Capital": [
+          "Endurance Equity Partners"
+        ],
+        "Latour Capital Management": [],
+        "Quantum Capital Partners": [],
+        "Mutares": [],
+        "Egeria Capital Management": [],
+        "Everwood Capital": [],
+        "All Iron Group": [],
+        "Bullhound Capital": [],
+        "Sparkmind VC": [],
+        "Evolution Equity Partners": [],
+        "HP Tech Ventures": [],
+        "Forgepoint Capital International": [],
+        "CDP Venture Capital": [],
+        "Redstone QAI Quantum Fund": [],
+        "EIC Fund": [],
+        "Meridiam": [],
+        "Ardian": [],
+        "Baring Private Equity Asia": [],
+        "GTO Partners": [],
+        "Kartesia": [],
+        "iXO Private Equity": [],
+        "Arkéa Capital": [],
+        "NextStage": [],
+        "Matignon Investissement": [],
+        "FCDE Independent Fund II": [],
+        "Paine & Partners": [],
+        "Bain Capital": [
+          "Bain Capital Private Equity"
+        ],
+        "Ontario Teachers": [
+          "Ontario Teachers' Pension Plan",
+          "OTPP"
+        ]
+      }
+    },
+    "family_offices": {
+      "Onchena": [
+        "Onchena SL"
+      ],
+      "Mirai Investments": [],
+      "Landon Investments": [
+        "Familia Gallardo"
+      ],
+      "Azora": [],
+      "Sofina": [],
+      "Florac": [],
+      "Whitehole Investments": [],
+      "Vermögensverwaltung Erben Dr. Karl Goldschmidt": [
+        "VVG"
+      ],
+      "Xeito Investments": [],
+      "Mellby Gård": [],
+      "GSIF España": [
+        "Global Social Impact Fund II"
+      ],
+      "Viknum AB": [],
+      "Belgrano Inversiones": [],
+      "Ahlström Capital": []
+    },
+    "bancos_cajas": {
+      "Kutxabank": [
+        "Kutxabank S.A.",
+        "Fundacion Kutxa",
+        "Kutxa Fundazioa",
+        "Kutxa",
+        "BBK",
+        "Fundacion BBK",
+        "BBK Gestion",
+        "Indar Kartera",
+        "Vital Fundazioa",
+        "Inzu Group"
+      ],
+      "Laboral Kutxa": [
+        "Caja Laboral Popular"
+      ],
+      "Banco Sabadell": [
+        "BStartup"
+      ],
+      "Santander": [
+        "Santander Climate VC"
+      ],
+      "BBVA": [],
+      "Caja Rural de Navarra": []
+    },
+    "institucionales_publicos": {
+      "Gobierno Vasco": [
+        "IVF",
+        "Finkatuz",
+        "SPRI",
+        "Ekarpen",
+        "Instituto Vasco de Finanzas",
+        "SGEIC",
+        "Ezten",
+        "Ente Vasco de la Energía",
+        "Gestión de Capital Riesgo País Vasco"
+      ],
+      "Estado Español": [
+        "CDTI",
+        "SETT",
+        "SEPI",
+        "COFIDES"
+      ],
+      "Diputación Foral de Gipuzkoa": [],
+      "Gobierno de Navarra": [
+        "Sodena"
+      ],
+      "Unión Europea": [
+        "EASME",
+        "European Innovation Council",
+        "EIT Health",
+        "EIT Manufacturing",
+        "Horizon 2020"
+      ],
+      "BEI": [
+        "Banco Europeo de Inversiones"
+      ]
+    },
+    "aceleradoras": {
+      "BIC Gipuzkoa": [
+        "Bic Gipuzkoa Berrilan"
+      ],
+      "Wayra": [],
+      "eCapital": [],
+      "Lanzadera": [],
+      "BerriUp": [],
+      "MassChallenge": [],
+      "Metxa Inversiones": [],
+      "Orizont": [],
+      "Gaztempresa": []
+    }
+  },
+  "tecnologias": {
+    "Cloud": {
+      "AWS": [
+        "Amazon Web Services",
+        "AWS IoT Core",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS EC2",
+        "Amazon AWS",
+        "AWS DynamoDB"
+      ],
+      "Microsoft Azure": [
+        "Azure",
+        "Microsoft Azure",
+        "Azure Active Directory",
+        "Azure Virtual Machines"
+      ],
+      "Google Cloud": [
+        "Google Cloud",
+        "Google Workspace",
+        "Google Cloud Platform"
+      ]
+    },
+    "ERP": {
+      "SAP": [
+        "SAP",
+        "SAP S/4HANA",
+        "SAP Business One"
+      ],
+      "Odoo": [
+        "Odoo",
+        "Odoo Community",
+        "Odoo Enterprise"
+      ],
+      "Microsoft Dynamics": [
+        "Microsoft Dynamics 365",
+        "Dynamics 365 Finance & Supply Chain Management",
+        "Microsoft Dynamics CRM"
+      ],
+      "Solmicro": [
+        "Solmicro ERP",
+        "Solmicro ERP Industrial"
+      ],
+      "IFS": [
+        "IFS Cloud"
+      ]
+    },
+    "Lenguajes": {
+      "Python": [
+        "Python"
+      ],
+      "Java": [
+        "Java"
+      ],
+      "JavaScript": [
+        "JavaScript"
+      ],
+      ".NET": [
+        ".NET",
+        "C#",
+        ".NET Core"
+      ],
+      "C++": [
+        "C++"
+      ],
+      "PHP": [
+        "PHP"
+      ]
+    },
+    "DevOps": {
+      "Docker": [
+        "Docker"
+      ],
+      "Kubernetes": [
+        "Kubernetes"
+      ],
+      "Jenkins": [
+        "Jenkins"
+      ]
+    },
+    "BI / Data": {
+      "Tableau": [
+        "Tableau"
+      ],
+      "Power BI": [
+        "Power BI"
+      ],
+      "Google Analytics": [
+        "Google Analytics",
+        "Google Universal Analytics",
+        "Google Analytics 4"
+      ],
+      "IBM Cognos": [
+        "IBM Cognos"
+      ]
+    },
+    "Bases de datos": {
+      "PostgreSQL": [
+        "PostgreSQL"
+      ],
+      "SQL Server": [
+        "SQL Server"
+      ],
+      "DynamoDB": [
+        "DynamoDB"
+      ],
+      "Oracle": [
+        "Oracle"
+      ]
+    },
+    "Industrial": {
+      "SCADA": [
+        "SCADA"
+      ],
+      "PLC": [
+        "PLC"
+      ],
+      "Siemens": [
+        "Siemens",
+        "Siemens NX",
+        "Siemens Sinumerik",
+        "Siemens 840D"
+      ],
+      "Fanuc": [
+        "Fanuc",
+        "CNC Fanuc"
+      ],
+      "CNC": [
+        "CNC",
+        "Control Numérico"
+      ],
+      "CATIA": [
+        "CATIA",
+        "CATIA V5"
+      ],
+      "ANSYS": [
+        "ANSYS"
+      ],
+      "SolidWorks": [
+        "SolidWorks",
+        "SOLIDWORKS"
+      ],
+      "AutoCAD": [
+        "AutoCAD",
+        "AUTOCAD"
+      ],
+      "Heidenhain": [
+        "Heidenhain",
+        "HEIDENHAIN"
+      ],
+      "Beckhoff": [
+        "Beckhoff"
+      ]
+    },
+    "Otros": {
+      "Salesforce": [
+        "Salesforce"
+      ],
+      "React": [
+        "React",
+        "React Native"
+      ],
+      "WordPress": [
+        "WordPress"
+      ],
+      "Office 365": [
+        "Office 365",
+        "Microsoft 365",
+        "Microsoft Office 365"
+      ],
+      "BIM": [
+        "BIM",
+        "Building Information Modeling"
+      ],
+      "TensorFlow": [
+        "TensorFlow"
+      ],
+      "OpenCV": [
+        "OpenCV"
+      ]
+    }
+  },
+  "aplicaciones_ia": {
+    "Computer Vision": [
+      "visión artificial",
+      "visión por máquina",
+      "reconocimiento de imágenes",
+      "análisis de imagen",
+      "inspección visual",
+      "detección de objetos",
+      "reconocimiento de patrones visuales"
+    ],
+    "Mantenimiento Predictivo": [
+      "mantenimiento predictivo",
+      "análisis predictivo de mantenimiento",
+      "predicción de fallos",
+      "detección de anomalías",
+      "diagnóstico predictivo"
+    ],
+    "Machine Learning": [
+      "machine learning",
+      "aprendizaje automático",
+      "algoritmos de ML",
+      "modelos de aprendizaje"
+    ],
+    "Analítica Predictiva": [
+      "análisis predictivo",
+      "analítica predictiva",
+      "predicción de demanda",
+      "pronóstico",
+      "predicción de patrones"
+    ],
+    "Digital Twin": [
+      "gemelo digital",
+      "gemelos digitales",
+      "modelos digitales",
+      "simulación digital"
+    ],
+    "NLP": [
+      "procesamiento de lenguaje natural",
+      "NLP",
+      "análisis de texto",
+      "lingüística computacional",
+      "tecnologías lingüísticas"
+    ],
+    "Deep Learning": [
+      "deep learning",
+      "aprendizaje profundo",
+      "redes neuronales profundas",
+      "algoritmos de deep learning"
+    ],
+    "Chatbot": [
+      "chatbot",
+      "asistente conversacional",
+      "asistente virtual",
+      "bot conversacional"
+    ],
+    "Big Data Analytics": [
+      "big data",
+      "análisis de big data",
+      "analítica de datos",
+      "análisis de datos masivos",
+      "inteligencia de datos"
+    ],
+    "RPA": [
+      "automatización de procesos robóticos",
+      "RPA",
+      "automatización robótica",
+      "automatización inteligente"
+    ],
+    "Reconocimiento Facial": [
+      "reconocimiento facial",
+      "identificación facial",
+      "biometría facial",
+      "autenticación facial"
+    ],
+    "IoT Industrial": [
+      "IoT industrial",
+      "IIoT",
+      "Internet de las Cosas industrial",
+      "sensores IoT",
+      "conectividad industrial"
+    ],
+    "IA Generativa": [
+      "IA generativa",
+      "inteligencia artificial generativa",
+      "generación automática",
+      "IA gen"
+    ],
+    "Detección de Fraude": [
+      "detección de fraude",
+      "prevención de fraude",
+      "análisis de fraude",
+      "identificación de fraude"
+    ],
+    "OCR": [
+      "OCR",
+      "reconocimiento óptico de caracteres",
+      "procesamiento de documentos",
+      "digitalización automática"
+    ],
+    "Optimización de Rutas": [
+      "optimización de rutas",
+      "planificación inteligente",
+      "routing inteligente",
+      "gestión de rutas"
+    ],
+    "Control de Calidad Automatizado": [
+      "control de calidad",
+      "inspección automatizada",
+      "verificación automática",
+      "control automático de calidad"
+    ],
+    "Sistemas de Recomendación": [
+      "sistemas de recomendación",
+      "recomendaciones personalizadas",
+      "personalización",
+      "matching inteligente"
+    ],
+    "Análisis de Comportamiento": [
+      "análisis de comportamiento",
+      "análisis comportamental",
+      "patrones de comportamiento",
+      "behavioral analytics"
+    ],
+    "Automatización de Procesos": [
+      "automatización de procesos",
+      "automatización inteligente",
+      "procesos automatizados",
+      "digitalización de procesos"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+# Configuración del proyecto Ecosistema Gipuzkoa v2
+proyecto:
+  nombre: "Ecosistema Empresarial Guipuzcoano"
+  version: "2.0.0"
+  provincia_foco: "guipúzcoa"
+
+pipeline:
+  # Paso 1: Recuperar empresas
+  umbral_ventas_minimo: 2000000  # 2M€
+  categorias_recuperar: ["corporativa", "grande"]
+
+  # Paso 3: Grupos empresariales conocidos
+  grupos_conocidos:
+    - raiz: "CAF"
+      nombre_grupo: "Grupo CAF"
+      nif_matriz: "A20001020"
+    - raiz: "ULMA"
+      nombre_grupo: "Grupo ULMA"
+      nif_holding: "F75160408"
+    - raiz: "IRIZAR"
+      nombre_grupo: "Grupo Irizar"
+    - raiz: "FAGOR"
+      nombre_grupo: "Grupo Fagor (Mondragón)"
+    - raiz: "MONDRAGON"
+      nombre_grupo: "Corporación Mondragón"
+    - raiz: "INGETEAM"
+      nombre_grupo: "Grupo Ingeteam"
+
+  # Paso 4: Valores sospechosos
+  placeholders_ventas: [50000000, 25000000, 1900000]
+
+  # Paso 5: Taxonomía
+  cotizadas_vascas_gipuzkoa:
+    - nif: "A20001020"
+      nombre: "CAF"
+      mercado: "Mercado Continuo"
+
+  cooperativas_mondragon:
+    - "FAGOR ARRASATE"
+    - "FAGOR EDERLAN"
+    - "MONDRAGON ASSEMBLY"
+    - "DANOBAT"
+    - "SORALUCE"
+    - "COPRECI"
+    - "FAGOR AUTOMATION"
+    - "ORKLI"
+    - "GOIZPER"
+
+  cooperativas_independientes_grandes:
+    - "ORONA"
+    - "ULMA"
+    - "IRIZAR"
+    - "AMPO"
+
+  # Campeonas ocultas conocidas (lista parcial, se ampliará con investigación)
+  campeonas_ocultas_confirmadas:
+    - "ORBINOX"
+    - "SALTO SYSTEMS"
+    - "PASABAN"
+    - "GRAPHENEA"
+    - "COPRECI"
+    - "SORALUCE"
+    - "DANOBAT"
+    - "BELLOTA AGRISOLUTIONS"
+    - "WAVEGARDEN"
+    - "GOIZPER"
+    - "ETXE-TAR"
+    - "ORKLI"
+    - "SHUTON"
+    - "CIKAUTXO"
+    - "AMPO"
+
+  campeonas_famosas_confirmadas:
+    - "CAF"
+    - "IRIZAR"
+    - "ORONA"
+    - "INGETEAM"
+    - "FAGOR ARRASATE"
+
+  campeonas_tractoras_confirmadas:
+    - "ARCELORMITTAL"
+    - "DACHSER"
+    - "MICHELIN"
+
+enrichment:
+  haiku:
+    modelo: "claude-haiku-4-5-20251001"
+    max_tokens: 1024
+    temperature: 0.0
+    delay_entre_requests: 1
+    max_reintentos: 3
+    guardar_cada: 5
+
+  sonnet:
+    modelo: "claude-sonnet-4-6-20250514"
+    max_tokens: 1024
+    temperature: 0.1
+    batch_size: 20  # Empresas por llamada batch
+
+csv:
+  separador: ";"
+  encoding: "utf-8-sig"
