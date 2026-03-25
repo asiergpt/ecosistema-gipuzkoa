@@ -162,6 +162,7 @@ export default function Explorar() {
   const [selected, setSelected] = useState(null)
   const [sortCol, setSortCol] = useState(null)
   const [sortDir, setSortDir] = useState('asc')
+  const [filtersOpen, setFiltersOpen] = useState(false)
 
   const sorted = useMemo(() => {
     if (!sortCol) return data
@@ -199,11 +200,35 @@ export default function Explorar() {
   ]
 
   return (
-    <div className="flex h-[calc(100vh-57px)]">
-      {/* Filters */}
-      <div className="w-72 shrink-0 bg-white border-r border-gray-200 p-4 overflow-y-auto">
+    <div className="flex h-[calc(100vh-57px)] relative">
+      {/* Mobile filter toggle */}
+      <button
+        className="lg:hidden fixed bottom-4 right-4 z-50 bg-gray-900 text-white px-4 py-2 rounded-full shadow-lg text-sm font-medium"
+        onClick={() => setFiltersOpen(!filtersOpen)}
+      >
+        {filtersOpen ? 'Cerrar filtros' : `Filtros (${data.length})`}
+      </button>
+
+      {/* Filters — sidebar on desktop, overlay on mobile */}
+      <div className={`
+        bg-white border-r border-gray-200 p-4 overflow-y-auto z-40
+        lg:w-72 lg:shrink-0 lg:relative lg:block
+        ${filtersOpen
+          ? 'fixed inset-0 w-full sm:w-80'
+          : 'hidden lg:block'
+        }
+      `}>
+        <div className="flex justify-between items-center mb-3 lg:hidden">
+          <span className="font-semibold text-gray-900 text-sm">Filtros</span>
+          <button onClick={() => setFiltersOpen(false)} className="text-gray-400 hover:text-gray-600 text-xl">&times;</button>
+        </div>
         <FilterPanel />
       </div>
+
+      {/* Mobile overlay backdrop */}
+      {filtersOpen && (
+        <div className="fixed inset-0 bg-black/30 z-30 lg:hidden" onClick={() => setFiltersOpen(false)} />
+      )}
 
       {/* Table */}
       <div className="flex-1 overflow-auto">
